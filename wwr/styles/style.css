@@ -4,7 +4,7 @@
 }
 #background {
     height: 725px;
-    background-color: #EBFEFD;
+    background-color: #FFBF46;
 }               
 nav a {
     text-align: center;
@@ -43,7 +43,7 @@ nav a:hover {
     background-color: #EBFEFD;
 }
 footer {
-    background-color: #FFBF46;
+    background-color: rgba(20,30,13, .7);
     color: black;
 }
 footer a {
