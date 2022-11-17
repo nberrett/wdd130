@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Roboto:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -10,6 +12,8 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -22,6 +26,13 @@ main section {
 }
 body {
     background-color: #EBFEFD;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -29,56 +40,94 @@ header {
 nav a:hover {
     background-color: black;
     color: #FFBF46;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 .book, .join {
     background-color: #EBFEFD;
     color: black;
     text-decoration: none;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: black;
     color: #FFBF46;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 .msg {
     background-color: #EBFEFD;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: rgba(20,30,13, .7);
     color: black;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: black;
     text-decoration: none;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 footer a:hover {
     color: #FFBF46;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 footer p {
     font-size: 1.2em;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 footer p a:hover {
     text-decoration: underline;
 }   
+footer .social img {
+    padding-top: 15px;
+}
 .home-title {
     color: black;
+    font-family: 'Lemonada', 'Lucida Bright', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: black;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 .msg h2 {
     color: black;
+    font-family: 'Lemonada', 'Lucida Bright', sans-serif;
 }
 .msg p {
     color: black;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+} 
 #hero-img {
     width: 100%;
 }
-                
+.card-img {
+    border: 10px solid #0D2149;
+}
+main section img {
+    box-sizing: border-box;
+}               
                 
