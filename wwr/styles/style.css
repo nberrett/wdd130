@@ -195,7 +195,70 @@ h4 {
 }
 main section img {
     box-sizing: border-box;
-}               
+}
+/* Start of rivers css */
+.rivers-title {
+    text-align: center;
+}
+.rivers-title h1 {
+    color: #FFBF46;
+}
+.rivers-mainfork {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.mainfork-title {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-left: 17%;
+}
+.mainfork-img {
+    width: 35%;
+    float: left;
+}
+.mainfork-content {
+   width: 100%;
+    height: 100%;
+}
+.rivers-desolation {
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+.desolation-title {
+    padding-bottom: 20px;
+    margin-right: 34%;
+}
+.desolation-content {
+    width: 65%;
+    height: 100%;
+    float: left;
+}
+.desolation-img {
+    width: 35%;
+}
+.rivers-grandcanyon {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+.grandcanyon-title {
+    width: 100%;
+    margin-left: 17%;
+}
+.grandcanyon-img {
+    width: 35%;
+    float: left;
+}
+.grandcanyon-content {
+   width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+/*leave this at the bottom */
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
