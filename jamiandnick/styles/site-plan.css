@@ -26,7 +26,15 @@ Fonts are separated by a | */
   --nav-hover-background-color: #030426;
 }
 
-
+.homeimg1 {
+  width: 800px;
+}
+.homeimg2 {
+  width: 800px;
+}
+.page2img1 {
+  width: 800px;
+}
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
