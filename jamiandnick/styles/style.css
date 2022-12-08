@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ovo&family=Source+Serif+Pro:wght@300&display=swap');
+
+.logo {
+    width: 80px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #D9D9D9;
+    text-decoration: none;
+    font-family: "Source Serif Pro", Helvetica, sans-serif;
+    padding: 35px;
+}
+nav a:hover {
+    color: #A6A6A6;
+}
+header {
+    background-color: #050739;
+    border: 1px solid;
+    border-color: #A6A6A6;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+body {
+    background-color: #030426;
+    color: #D9D9D9;
+}
+#title-msg {
+    text-align: center;
+    font-family: "Ovo", serif;
+}
+#title-msg h4 {
+    margin-top: -20px;
+    margin-bottom: 45px;
+}
+.home-title {
+    font-family: "Ovo", serif;
+    font-size: 30px;
+}
+.homeimg1 {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.welcome-message {
+    text-align: center;
+}
+.welcome-message h2 {
+    font-family: "Ovo", serif;
+}
+.welcome-message p {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-family: "Source Serif Pro", Helvetica, sans-serif;
+}
+footer {
+    background-color: #050739;
+    border: 1px solid;
+    border-color: #A6A6A6;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Source Serif Pro", Helvetica, sans-serif;
+}
+footer a {
+    color: #D9D9D9;
+}
+footer a:hover {
+    color: #A6A6A6;
+}
