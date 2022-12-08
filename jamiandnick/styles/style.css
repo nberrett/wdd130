@@ -51,6 +51,7 @@ body {
 }
 .welcome-message h2 {
     font-family: "Ovo", serif;
+    padding-top: 15px;
 }
 .welcome-message p {
     padding-left: 30px;
