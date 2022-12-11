@@ -74,3 +74,40 @@ footer a {
 footer a:hover {
     color: #A6A6A6;
 }
+/* ourstory code */ 
+.ourstory-title {
+    font-family: "Ovo", serif;
+    font-size: 45px;
+}
+ .ourstory-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ourstory-img1 {
+    display: block;
+    width: 500px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.ourstory-img2 {
+    display: block;
+    width: 500px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: 50px;
+}
+.ourstory-images {
+    display: block;
+    float: left;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+.ourstory-content {
+    display: block;
+    width: 80%;
+    font-size: 25px;
+    text-align: center;
+    grid-column: 2/3;
+    margin-top: 100px;
+    
+}
