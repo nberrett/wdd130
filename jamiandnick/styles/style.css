@@ -84,13 +84,11 @@ footer a:hover {
     grid-template-columns: 1fr 1fr;
 }
 .ourstory-img1 {
-    display: block;
     width: 500px;
     grid-column: 1/2;
     grid-row: 1/2;
 }
 .ourstory-img2 {
-    display: block;
     width: 500px;
     grid-column: 1/2;
     grid-row: 2/3;
