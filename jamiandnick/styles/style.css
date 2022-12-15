@@ -108,3 +108,55 @@ footer a:hover {
     grid-column: 2/3;
        
 }
+/* wedding-details code */
+.weddingdetails-title {
+    font-family: "Ovo", serif;
+    font-size: 45px;
+}
+.weddingdetails-info {
+    font-family: "Source Serif Pro", Helvetica, sans-serif;
+    font-size: 23px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.registryinfo h2{
+    text-align: center;
+    font-family: "Ovo", serif;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.registryinfo p{
+    font-family: "Source Serif Pro", Helvetica, sans-serif;
+    text-align: center;
+    font-size: 23px;
+}
+.receptioninfo{
+    text-align: center;
+    font-family: "Ovo", serif;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.googlemaps {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.gilbert {
+    float: left;
+    margin: 20px;
+    grid-column: 1/2;
+}
+.gilbert h3 {
+    text-align: center;
+    font-family: "Source Serif Pro", Helvetica, sans-serif;
+    text-align: center;
+}
+.cassville {
+    grid-column: 2/3;
+    margin-top: 20px;
+} 
+.cassville h3 {
+    text-align: center;
+    font-family: "Source Serif Pro", Helvetica, sans-serif;
+    text-align: center;
+}
